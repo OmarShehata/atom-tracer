@@ -1,0 +1,24 @@
+{
+  "name": "atom-tracer",
+  "main": "./lib/atom-tracer",
+  "version": "1.0.0",
+  "description": "An Atom package for tracing variables inline!",
+  "keywords": [
+  ],
+  "repository": "https://github.com/OmarShehata/atom-tracer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "ink": {
+      "versions": {
+        "*": "consumeInk"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "yamljs": "^0.2.8"
+  }
+}

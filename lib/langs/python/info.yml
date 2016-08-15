@@ -1,0 +1,3 @@
+languageName: Python
+fileExtension: .py
+runCommand: python [file] #replaces [file] with the filepath

@@ -4,7 +4,7 @@ The Atomic Tracer package is set up to be language agnostic. You won't need to e
 
 ## Folder Structure
 
-All code for the supported languages can be found in `lib/langs/`. For example, to get the tracer to work with Python, I created a `python/` directly there with three files:
+All code for the supported languages can be found in `lib/langs/`. For example, to get the tracer to work with Python, I created a `python/` directory there with three files:
 
 - info.yml
 - parse.py

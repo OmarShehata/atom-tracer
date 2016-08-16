@@ -16,7 +16,17 @@ It also works on function arguments:
 
 Currently only Python is supported, but you can help out and add more languages without having to touch any of the core plugin code!
 
-# How to use
+# Installation
+
+This package depends on [Ink](https://github.com/JunoLab/atom-ink), so install that one first. 
+
+Then install the tracer from your Atom settings, or through `apm`:
+
+```
+apm install atom-tracer
+```
+
+# Usage
 
 Once installed, you can hold Alt and double click on a variable to trace it. Double click anywhere in the file to clear the results.
 

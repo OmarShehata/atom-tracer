@@ -1,0 +1,3 @@
+languageName: JavaScript
+fileExtension: .js
+runCommand: node [file] #replaces [file] with the filepath

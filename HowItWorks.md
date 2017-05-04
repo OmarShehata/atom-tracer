@@ -10,7 +10,9 @@ All code for the supported languages can be found in `lib/langs/`. For example, 
 - parse.py
 - inject.py
 
-The package searches all folders under the `langs/` directory. All 3 files must be present for this to be considered a valid language extension. Here's what each file is supposed to do:
+The package searches all folders under the `langs/` directory. All 3 files must be present for this to be considered a valid language extension. The parse and inject scripts should be written in the language you're adding support for (technically they _could_ be written in any language but it makes sense to write them in the target language).
+
+Here's what each file is supposed to do:
 
 ### info.yml
 

@@ -57,7 +57,7 @@ module.exports = AtomTracer =
       view.addEventListener('dblclick', () ->
           if moduleRef.altDown == true then  moduleRef.traceCommand() else moduleRef.clearResults()
       )
-      view.addEventListener 'focusin', (event) ->
+      view.addEventListener 'blur', (event) ->
         #Fix so that when we alt tab out and back, alt starts as false
         moduleRef.altDown = false
       view.addEventListener 'keydown', (event) ->

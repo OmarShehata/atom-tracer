@@ -131,7 +131,7 @@ module.exports = AtomTracer =
 
     parseData = @parseScripts[fileType]
     #If found, please call the parse script to check if it's a real variable
-    command = parseData.runCommand.replace("[file]",parseData.parseScript) + " \"" + filePath + "\" " + varName + " " + line
+    command = parseData.runCommand.replace("[file]",parseData.parseScript) + " \"" + filePath + "\" \"" + varName + "\" " + line
     child_process.exec(command, (error, stdout, stderr) ->
       #If all good, send the scope info the inject
       if(error || stderr)

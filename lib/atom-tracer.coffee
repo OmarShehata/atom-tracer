@@ -102,6 +102,8 @@ module.exports = AtomTracer =
     el = document.createElement("span"); el.innerHTML = text
     editor = atom.workspace.getActiveTextEditor();
     line = line - 1;
+    if(@ink == undefined)
+      atom.notifications.addError("Missing 'ink' package!" ,{detail:"Atom Tracer relies on 'ink' (https://atom.io/packages/ink) to create nice-looking inline output. Make sure you have that installed."})
     result = new @ink.Result(editor, [line,line],{content:el,type:'inline'})
     @resultArray.push(result)
     #Copy content to clipboard when the user clicks

@@ -1,7 +1,7 @@
 {
   "name": "atom-tracer",
   "main": "./lib/atom-tracer",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A language agnostic Atom package for tracing variables inline!",
   "keywords": [],
   "repository": "https://github.com/OmarShehata/atom-tracer",
